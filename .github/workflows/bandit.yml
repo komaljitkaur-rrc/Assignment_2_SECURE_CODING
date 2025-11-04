@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Bandit security scan
-        uses: shundor/bandit-action@v1
+        uses: shundor/bandit-action@main
         with:
           path: "."
           level: high
